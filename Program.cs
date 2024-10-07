@@ -13,7 +13,7 @@
 
         static async void CallMethod()
         {
-            string filePath = @"C:\sampleFile.txt";
+            string filePath = @"C:\textFile.txt";
             Task<int> task = ReadFile(filePath);
             int length = await task;
             Console.WriteLine("Total length: " + length);
